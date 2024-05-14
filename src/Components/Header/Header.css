@@ -1,0 +1,195 @@
+.site-header {
+  width: 100% !important;
+  height: 115px;
+  display: block;
+  overflow: hidden;
+  text-indent: -99999px;
+  background: url(https://www.cadizdirecto.com/img/cadizdirecto-cebecera-portada.jpg)
+    center center no-repeat;
+  background-size: cover;
+  display: block !important;
+  overflow: hidden !important;
+}
+.site-header {
+  padding-bottom: 0px !important;
+}
+.site-header a {
+  color: #014260;
+}
+.gb-container-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+}
+.header-aligned-center:not([class*="nav-float-"]) .inside-header {
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.inside-header {
+  padding: 42px 74px 85px 40px;
+}
+.inside-header {
+  display: flex;
+  align-items: center;
+}
+
+.main-navigation,
+.main-navigation ul ul {
+  border-bottom: 2px solid #000;
+  border-top: 1px solid #fff;
+}
+.main-navigation,
+.main-navigation ul ul {
+  background-color: #014260;
+}
+.main-navigation ul li {
+  line-height: 44px;
+}
+.main-navigation ul li:hover {
+  color: #ffffff;
+  background-color: #025e88;
+}
+.main-navigation {
+  z-index: 100;
+  padding: 0;
+  clear: both;
+  display: block;
+}
+.nav-align-center .inside-navigation {
+  justify-content: center;
+}
+.main-navigation .inside-navigation {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.inside-navigation {
+  position: relative;
+}
+.has-menu-bar-items button.menu-toggle {
+  flex-grow: 0;
+}
+.main-navigation .main-nav ul li a,
+.main-navigation .menu-toggle,
+.main-navigation .menu-bar-items {
+  color: #ffffff;
+}
+.main-navigation a,
+.main-navigation .menu-toggle,
+.main-navigation .menu-bar-items {
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+button.menu-toggle {
+  background-color: transparent;
+  flex-grow: 1;
+  border: 0;
+  text-align: center;
+}
+.nav-align-center .main-nav > ul {
+  justify-content: center;
+}
+.main-navigation .main-nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.main-nav ul,
+li {
+  margin-bottom: 0;
+}
+.main-navigation li {
+  position: relative;
+  height: fit-content;
+}
+.main-navigation .main-nav ul li a,
+.menu-toggle,
+.main-navigation .menu-bar-item > a {
+  line-height: 44px;
+}
+.main-navigation .main-nav ul li a,
+.main-navigation .menu-toggle,
+.main-navigation .menu-bar-items {
+  color: #ffffff;
+}
+.main-navigation .main-nav ul li a {
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 60px;
+}
+.main-navigation .main-nav ul li a {
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 44px;
+}
+.main-navigation a,
+.main-navigation .menu-toggle,
+.main-navigation .menu-bar-items {
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.main-navigation .menu-bar-items {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.gb-container-1a706be9 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  align-items: center;
+}
+.gb-container-1a706be9 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+}
+.main-navigation .menu-bar-items a {
+  color: inherit;
+}
+.main-navigation ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  border-bottom: 1px dotted;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.main-navigation a,
+.menu-toggle {
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 16px;
+}
+a.gb-button-db7a83ca {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5em;
+  padding: 15px 10px;
+  color: var(--base-3);
+  text-decoration: none;
+}
+a.gb-button-db7a83ca .gb-icon {
+  line-height: 0;
+}
+
+nav .menu-bar-items svg {
+  height: 1.5em;
+  fill: currentColor;
+}
+nav .menu-bar-items a {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5em;
+  padding: 10px 10px;
+  color: var(--base-3);
+  text-decoration: none;
+}

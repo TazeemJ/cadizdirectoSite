@@ -1,0 +1,15 @@
+div.title-head2 {
+  font-size: 19px;
+  color: #000;
+  font-weight: 700;
+  text-transform: none;
+  border-left: 5px solid #014260;
+  margin-bottom: 20px;
+}
+div.title-head2 h2 {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 0px;
+}
