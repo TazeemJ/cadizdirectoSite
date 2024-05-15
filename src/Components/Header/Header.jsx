@@ -1,8 +1,8 @@
 import React from "react";
 import "./Header.css";
-
-import headerBackImg from "../../Images/HeaderBackImage.jpg";
 import { Link } from "react-router-dom";
+import headerBackImg from "../../Images/HeaderBackImage.jpg";
+
 const Header = () => {
   return (
     <>
@@ -10,7 +10,7 @@ const Header = () => {
         className="site-header"
         id="masthead"
         style={{
-          background: headerBackImg,
+          backgroundImage: `url(${headerBackImg})`,
         }}
       >
         <div className="inside-header"></div>
@@ -21,6 +21,7 @@ const Header = () => {
         aria-label="Principal"
       >
         <div className="inside-navigation">
+          {/* Uncomment and handle the menu button for mobile view if necessary */}
           {/* <button
             className="menu-toggle"
             aria-controls="primary-menu"
@@ -49,67 +50,27 @@ const Header = () => {
             <span className="mobile-menu">Menú</span>
           </button> */}
           <div id="primary-menu" className="main-nav">
-            <ul id="menu-principal" className=" menu sf-menu">
-              <li
-                id="menu-item-366460"
-                className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-366460"
-              >
-                <Link
-                  to={"/"}
-                  href="https://www.cadizdirecto.com/noticias-cadiz/"
-                >
-                  Cádiz
-                </Link>
+            <ul id="menu-principal" className="menu sf-menu">
+              <li className="menu-item">
+                <Link to="/">Cádiz</Link>
               </li>
-              <li
-                id="menu-item-383755"
-                className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-383755"
-              >
-                <Link
-                  to={"/noticias-chiclana"}
-                  href="https://www.cadizdirecto.com/noticias-chiclana/"
-                >
-                  Chiclana
-                </Link>
+              <li className="menu-item">
+                <Link to="/noticias-chiclana">Chiclana</Link>
               </li>
-
-              <li
-                id="menu-item-383760"
-                className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-383760"
-              >
-                <Link
-                  to={"/noticias-san-fernando"}
-                  href="https://www.cadizdirecto.com/noticias-san-fernando/"
-                >
-                  San Fernando
-                </Link>
+              <li className="menu-item">
+                <Link to="/noticias-san-fernando">San Fernando</Link>
               </li>
-              <li
-                id="menu-item-383754"
-                className="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-383754"
-              >
-                <Link
-                  to={"/carnaval"}
-                  href="https://www.cadizdirecto.com/carnaval/"
-                  aria-current="page"
-                >
+              <li className="menu-item current-menu-item">
+                <Link to="/carnaval" aria-current="page">
                   Carnaval
                 </Link>
               </li>
-              <li
-                id="menu-item-383753"
-                className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-383753"
-              >
-                <Link
-                  to={"/noticias-cadiz-club-futbol"}
-                  href="https://www.cadizdirecto.com/noticias-cadiz-club-futbol/"
-                >
-                  Cádiz CF
-                </Link>
+              <li className="menu-item">
+                <Link to="/noticias-cadiz-club-futbol">Cádiz CF</Link>
               </li>
             </ul>
           </div>
-          <div className="menu-bar-items">
+          {/* <div className="menu-bar-items">
             <div className="gb-container gb-container-1a706be9">
               <a
                 className="gb-button gb-button-db7a83ca"
@@ -157,7 +118,7 @@ const Header = () => {
                 </span>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </nav>
     </>

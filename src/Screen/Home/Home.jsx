@@ -1,12 +1,22 @@
 import React from "react";
-import OtrasCard from "../../OtrasCard/OtrasCard";
-import GalleryCard from "../../GalleryCard/GalleryCard";
-import HomeArticle from "../../HomeArticle/HomeArticle";
+import OtrasCard from "../../Components/OtrasCard/OtrasCard";
+import GalleryCard from "../../Components//GalleryCard/GalleryCard";
+import HomeArticle from "../../Components//HomeArticle/HomeArticle";
+import imageWork from "../../Images/Working.png";
 
 const Home = () => {
   return (
     <>
       <div className="container">
+        <div className="d-flex text-center">
+          <img
+            className="mx-auto"
+            src={imageWork}
+            alt=""
+            width={"1000px"}
+            height={"1000px"}
+          />
+        </div>
         <div>
           <div className="my-2 mt-4">
             <div className="title-head2">
